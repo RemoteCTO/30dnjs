@@ -1,0 +1,15 @@
+main {
+  margin: 0;
+  padding: 0;
+}
+
+.key {
+  transition: all .07s ease;
+  text-shadow: 0 0 .5rem black;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
