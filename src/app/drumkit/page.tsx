@@ -5,7 +5,7 @@ import './page.css'
 export default function Page() {
   return (
     <main className="bg-drumkit-background min-h-screen bg-cover">
-      <div className="flex flex-1 min-h-screen content-center">
+      <div className="min-h-screen grid grid-cols-4 gap-4">
         <DrumKey keyName="A" keyTrigger="A" soundName="clap" keyCode={65} />
         <DrumKey keyName="S" keyTrigger="S" soundName="hihat" keyCode={83} />
         <DrumKey keyName="D" keyTrigger="D" soundName="kick" keyCode={68} />
