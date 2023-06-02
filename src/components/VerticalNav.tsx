@@ -1,5 +1,6 @@
 const navigation = [
-  { name: 'Drumkit', href: '/drumkit', current: true }
+  { name: 'Drumkit', href: '/drumkit', current: true },
+  { name: 'Clock', href: '/clock', current: true }
 ]
 
 function classNames(...classes) {
