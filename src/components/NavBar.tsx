@@ -8,6 +8,7 @@ const navigation = [
   { name: 'Home', href: '/' },
   { name: 'Drumkit', href: '/drumkit' },
   { name: 'Clock', href: '/clock' },
+  { name: 'CSS Variables', href: '/cssvars' },
 ]
 
 export default function Example() {
